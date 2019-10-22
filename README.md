@@ -16,7 +16,7 @@
 
 ## PCA (Principle component analysis)
 - PCA is by far the most popular dimensionality algorithm which is in use
-- The main idea of it is to reduce the dimensionality of a data set consisting of many variables correlated with each other, either heavily or lightly, while retaining the variation present in the dataset, up to the maximum extent. The same is done by transforming the variables to a new set of variables known as <b>Principal Components<b>
+- The main idea of it is to reduce the dimensionality of a data set consisting of many variables correlated with each other, either heavily or lightly, while retaining the variation present in the dataset, up to the maximum extent. The same is done by transforming the variables to a new set of variables known as <b>Principal Components</b>
 - PCA is basically the Linear Algebra.
 - By simple example will help to understand what is it and how is it works.
 - If we take 100*2 matrix
