@@ -95,15 +95,17 @@ print(pairs)
 - LDA projects the data in the way that maximize the seperation of two catagories.
 
 ## Two criteria
-- Maximize the distance between the means of the catagories.
-- Minimize the scatter within each catagory.<br><br>
 
-- Step1:Between class variance OR Between class matrix.
-<br>
-- Step2:Within class variance OR Within class matrix.
-<br>
-- Step3:Construct lower dimensional space which maximizes the between class variance and minimizes the within class variance.
-<br>
+- Maximize the distance between the means of the catagories
+
+- Minimize the scatter within each catagory
+
+- Step1:Between class variance OR Between class matrix
+
+- Step2:Within class variance OR Within class matrix
+
+- Step3:Construct lower dimensional space which maximizes the between class variance and minimizes the within class variance
+
 - Step4:Projection
 
 
@@ -112,6 +114,7 @@ print(pairs)
 - LDA - SUPERVISED
 
 <p>Now as we have seen two methods let's compare both of them on various datasets like wine,digits and iris datasets and visualize the plot of the results.</p>
+
 <p>Hear we are going to use sklearn library's datasets and decomposition function for PCA and LDA.</p>
 - Importing dataset
 
