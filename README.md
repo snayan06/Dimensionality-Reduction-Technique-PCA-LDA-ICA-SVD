@@ -135,7 +135,7 @@ print(X_r2)
 - lda_vs_pca plot of these three databases
 ###IRIS dataset
 
-![IRIS plot](/home/snayan06/Pictures/Screenshot from 2019-10-22 18-50-02.png)
+<img src = " 
 
 
     
