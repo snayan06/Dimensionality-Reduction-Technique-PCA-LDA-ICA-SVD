@@ -131,7 +131,11 @@ print(X_r2)
 ```
 <p>hear n_components cannot be larger than min(n_features, n_classes - 1).hear i have given example about iris dataset Using min(n_features, n_classes - 1) = min(4, 3 - 1) = 2 components.</p>
 <p>now for differantiate between this two i have made plots of both the results from that you can see the difference</p>
-- lda_vs_pca plot of thoese three databases
+
+- lda_vs_pca plot of these three databases
+###IRIS dataset
+
+![IRIS plot](/home/snayan06/Pictures/Screenshot from 2019-10-22 18-50-02.png)
 
 
     
