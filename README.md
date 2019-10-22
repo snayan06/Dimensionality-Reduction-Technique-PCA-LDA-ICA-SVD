@@ -90,20 +90,27 @@ print(pairs)
 
 # LDA (Linear Discriminant Analysis)
 
+- PCA mainly focuses on the most variation among all the variables.
+- In LDA we are interested in maximizing the seperatibility between all the known catagories.
+- LDA projects the data in the way that maximize the seperation of two catagories.
 
+## Two criteria
+- Maximize the distance between the means of the catagories.
+- Minimize the scatter within each catagory.<br><br>
 
-
-
-
-
-
-
-
-
-
+- Step1:Between class variance OR Between class matrix.
+<br>
+- Step2:Within class variance OR Within class matrix.
+<br>
+- Step3:Construct lower dimensional space which maximizes the between class variance and minimizes the within class variance.
+<br>
+- Step4:Projection
 
 
 ## PCA vs LDA
+- PCA - UNSUPERVISED
+- LDA - SUPERVISED
+
 <p>Now as we have seen two methods let's compare both of them on various datasets like wine,digits and iris datasets and visualize the plot of the results.</p>
 <p>Hear we are going to use sklearn library's datasets and decomposition function for PCA and LDA.</p>
 - Importing dataset
@@ -138,9 +145,7 @@ print(X_r2)
 
 - lda_vs_pca plot of these three databases
 
-### IRIS dataset
-
-<img src = https://github.com/snayan06/Dimensionality-reduction-algorithm-implimentationof-pca-lda-ica-svd/blob/master/digitsplot.png>
+### 
 
 <img src = https://github.com/snayan06/Dimensionality-reduction-algorithm-implimentationof-pca-lda-ica-svd/blob/master/irisplot.png>
 
