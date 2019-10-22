@@ -1,10 +1,11 @@
-# Dimensionality-Reductioin-algorithms-Implimentation-of-PCA-LDA-ICA-SVD
-In this we are going to learn about how to Dimensionality-Reductioin-algorithms-PCA-LDA-ICA-SVD
-# DIMENTIONALITY REDUCTION
-- Many machine learning problems have thousands or even millions of features for each training instance. Not only does this make training extremely slow, it can also make it much harder to find a good solution.
-- Reducing dimensionality does lose some information (just like compressing an image to JPEG can degrade its quality), so even though it will speed up training, it may also make your system perform slightly worse.
-- For example, in face recognition, the size of a training image patch is usually larger than 60 x 60 , which corresponds to a vector with more than 3600 dimensions.
-- In some cases , reducing the dimensionality of the training data may filter out some noise and unnecessary details and thus result in higher performance (but in general it won’t; it will just speed up training).
+# Dimensionality-Reduction-Technique-PCA-LDA-ICA-SVD
+
+## DIMENTIONALITY REDUCTION
+- Many machine learning problems have thousands or even millions of features for each training instance. Not only does this make training extremely slow, it can also make it much harder to find a good solution
+- Reducing dimensionality does lose some information (just like compressing an image to JPEG can degrade its quality), so even though it will speed up training, it may also make your system perform slightly worse
+- For example, in face recognition, the size of a training image patch is usually larger than 60 x 60 , which corresponds to a vector with more than 3600 dimensions
+- In some cases , reducing the dimensionality of the training data may filter out some noise and unnecessary details and thus result in higher performance (but in general it won’t; it will just speed up training)
+
 ## Practical reasons
 - Redundancy reduction and intrinsic structure discovery
 - Intrinsic structure discovery
@@ -12,14 +13,17 @@ In this we are going to learn about how to Dimensionality-Reductioin-algorithms-
 - Feature extraction
 - Visualization purpose
 - Computation and Machine learning perspective
+
 ## PCA (Principle component analysis)
-- Pca is by far the most popular dimensionality algorithm which is in use.<br>
-- The main idea of principal component analysis (PCA) is to reduce the dimensionality of a data set consisting of many variables correlated with each other, either heavily or lightly, while retaining the variation present in the dataset, up to the maximum extent. The same is done by transforming the variables to a new set of variables, which are known as the principal components (or simply, the PCs).
+- PCA is by far the most popular dimensionality algorithm which is in use
+- The main idea of it is to reduce the dimensionality of a data set consisting of many variables correlated with each other, either heavily or lightly, while retaining the variation present in the dataset, up to the maximum extent. The same is done by transforming the variables to a new set of variables known as <b>Principal Components<b>
 - PCA is basically the Linear Algebra.
 - By simple example will help to understand what is it and how is it works.
 - If we take 100*2 matrix
-- Then we have two choice 1.is to standardized this data and 2.without standardized.
-<p>So 1st we are going to understand with standardization,</p>
+- Then we have two choice 
+    - To standardized this data
+    - Without standardized
+<p>So 1st we are going to understand with standardization</p>
 <p>Now for implementing PCA</p>
 
 - Step1:
