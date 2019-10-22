@@ -135,7 +135,7 @@ print(X_r2)
 - lda_vs_pca plot of these three databases
 ###IRIS dataset
 
-<img src = " 
+<img src = https://github.com/snayan06/Dimensionality-reduction-algorithm-implimentationof-pca-lda-ica-svd/blob/master/digitsplot.png>
 
 
     
