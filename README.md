@@ -148,11 +148,29 @@ print(X_r2)
 
 - lda_vs_pca plot of these three databases
 
-### 
+### Digits Dataset PCA Plot
 
-<img src = https://github.com/snayan06/Dimensionality-reduction-algorithm-implimentationof-pca-lda-ica-svd/blob/master/irisplot.png>
+<img src = https://github.com/snayan06/Dimensionality-Reduction-Technique-PCA-LDA-ICA-SVD/blob/master/digitpca.png>
 
-<img src = https://github.com/snayan06/Dimensionality-reduction-algorithm-implimentationof-pca-lda-ica-svd/blob/master/wineplot.png>
+### Digits Datasets LDA Plot
 
+<img src = https://github.com/snayan06/Dimensionality-Reduction-Technique-PCA-LDA-ICA-SVD/blob/master/digitlda.png>
 
-    
+### IRIS Datasets PCA plot
+
+<img src = https://github.com/snayan06/Dimensionality-Reduction-Technique-PCA-LDA-ICA-SVD/blob/master/irispca.png>
+
+### IRIS Datasets LDA Plot
+
+<img src = https://github.com/snayan06/Dimensionality-Reduction-Technique-PCA-LDA-ICA-SVD/blob/master/irislda.png>
+
+### WINE Datasets PCA plot
+
+<img src = https://github.com/snayan06/Dimensionality-Reduction-Technique-PCA-LDA-ICA-SVD/blob/master/winepca.png>
+
+### WINE Datasets LDA plot
+
+<img src = https://github.com/snayan06/Dimensionality-Reduction-Technique-PCA-LDA-ICA-SVD/blob/master/winelda.png>
+   
+   
+   
