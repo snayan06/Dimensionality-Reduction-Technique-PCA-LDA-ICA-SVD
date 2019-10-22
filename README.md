@@ -133,9 +133,14 @@ print(X_r2)
 <p>now for differantiate between this two i have made plots of both the results from that you can see the difference</p>
 
 - lda_vs_pca plot of these three databases
-###IRIS dataset
+
+### IRIS dataset
 
 <img src = https://github.com/snayan06/Dimensionality-reduction-algorithm-implimentationof-pca-lda-ica-svd/blob/master/digitsplot.png>
+
+<img src = https://github.com/snayan06/Dimensionality-reduction-algorithm-implimentationof-pca-lda-ica-svd/blob/master/irisplot.png>
+
+<img src = https://github.com/snayan06/Dimensionality-reduction-algorithm-implimentationof-pca-lda-ica-svd/blob/master/wineplot.png>
 
 
     
